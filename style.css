@@ -136,6 +136,10 @@ h1, h2, h3, p, ul { margin: 0; }
 .detail-sections section { padding: 13px 15px; border: 1px solid #e3e9f1; border-radius: 10px; background: #f8fafd; }
 .detail-sections h3 { display: flex; align-items: center; gap: 8px; font-size: 1rem; margin-bottom: 5px; }
 .detail-sections p { color: #425672; font-size: .94rem; }
+.score-requirements { display: grid; gap: 6px; color: #425672; font-size: .94rem; }
+.score-requirements div { display: grid; grid-template-columns: 4.5em minmax(0, 1fr); gap: 8px; }
+.score-requirements dt { font-weight: 650; }
+.score-requirements dd { margin: 0; }
 .funding-chips, .level-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 7px 0 5px; }
 .funding-chips span, .level-chips span { border-radius: 5px; padding: 3px 8px; color: #1d5c46; background: #e5f3eb; font-size: .84rem; font-weight: 650; }
 .level-chips span { color: #2d4f80; background: #e8f0ff; }
